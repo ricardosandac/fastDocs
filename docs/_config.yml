@@ -1,11 +1,9 @@
 title: Apex Recipes Documentation
 description: Documentation for the Apex Recipes repository using Just the Docs theme.
-theme: just-the-docs
 
 # Navigation structure
 just_the_docs:
   logo: /assets/images/logo.png
   search_enabled: true
   aux_links:
-    GitHub Repository:
-      - https://github.com/your-repo-link
+    GitHub Repository: https://github.com/your-repo-link
