@@ -1,1 +1,6 @@
-theme: just-the-docs
+# Remova o tema personalizado
+# theme: just-the-docs
+
+# Adicione configurações básicas do GitHub Pages
+title: "Meu Projeto"
+description: "Documentação hospedada no GitHub Pages"
