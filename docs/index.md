@@ -1,32 +1,29 @@
 ---
+title: Documentação do Projeto E-Bikes
 layout: default
-title: Home
-nav_order: 1
 ---
 
-# Apex Recipes Documentation
+# Documentação do Projeto E-Bikes
 
-Welcome to the Apex Recipes documentation! This site provides detailed information about the repository, including its purpose, structure, and examples.
+Bem-vindo à documentação técnica do projeto E-Bikes. Aqui você encontrará informações detalhadas sobre os componentes, classes e outros artefatos do projeto Salesforce.
 
-## Table of Contents
-- [Introduction](introduction.md)
-- [Repository Structure](structure.md)
-- [TriggerHandler](triggerhandler.md)
-- [UtilityClass](utilityclass.md)
-- [AccountService](accountservice.md)
-- [ContactHelper](contacthelper.md)
-- [OpportunityManager](opportunitymanager.md)
-- [CaseProcessor](caseprocessor.md)
-- [LeadConverter](leadconverter.md)
-- [EmailService](emailservice.md)
-- [BatchJobHandler](batchjobhandler.md)
-- [Scheduler](scheduler.md)
-- [CustomLogger](customlogger.md)
-- [ValidationRules](validationrules.md)
-- [DataImporter](dataimporter.md)
-- [ReportGenerator](reportgenerator.md)
-- [NotificationService](notificationservice.md)
-- [QueueProcessor](queueprocessor.md)
-- [RecordMerger](recordmerger.md)
-- [FieldAuditor](fieldauditor.md)
-- [PermissionManager](permissionmanager.md)
+## Índice
+
+- [accountMap](accountMap.md): Componente Lightning para exibir mapas baseados no endereço de cobrança.
+- [createCase](createCase.md): Componente Lightning para criação de registros de `Case`.
+- [errorPanel](errorPanel.md): Componente para exibição de mensagens de erro.
+- [hero](hero.md): Componente de banner configurável com título, slogan e mídia.
+- [heroDetails](heroDetails.md): Componente para exibir detalhes dinâmicos de produtos.
+- [ldsUtils](ldsUtils.md): Utilitário para lidar com erros do LDS.
+- [orderBuilder](orderBuilder.md): Componente para construção de pedidos.
+- [orderItemTile](orderItemTile.md): Componente para exibir itens de pedidos.
+- [orderStatusPath](orderStatusPath.md): Componente para exibir o status de pedidos em um caminho visual.
+- [paginator](paginator.md): Componente para paginação de listas de itens.
+- [placeholder](placeholder.md): Componente para exibir mensagens de espera ou informações temporárias.
+- [productCard](productCard.md): Componente para exibir informações detalhadas de produtos.
+- [productFilter](productFilter.md): Componente para filtrar produtos.
+- [productTile](productTile.md): Componente para exibir produtos em formato de tile.
+- [productTileList](productTileList.md): Componente para exibir uma lista de produtos em formato de tile.
+- [similarProducts](similarProducts.md): Componente para exibir produtos similares.
+
+[← Voltar ao início](index.md)
