@@ -1,46 +1,29 @@
 ---
-title: Documentação do Projeto Salesforce
-summary: Índice completo da documentação técnica do projeto Salesforce.
+title: Documentação do Projeto E-Bikes
+layout: default
 ---
 
-# Documentação do Projeto Salesforce
+# Documentação do Projeto E-Bikes
+
+Bem-vindo à documentação técnica do projeto E-Bikes. Aqui você encontrará informações detalhadas sobre os componentes, classes e outros artefatos do projeto Salesforce.
 
 ## Índice
 
-### Configurações
-- [ESLint Config](./eslint.config.md)
-- [Jest Config](./jest.config.md)
-- [SFDX Project Config](./sfdx-project.md)
-- [UTAM Config](./utam.config.md)
+- [accountMap](accountMap.md): Componente Lightning para exibir mapas baseados no endereço de cobrança.
+- [createCase](createCase.md): Componente Lightning para criação de registros de `Case`.
+- [errorPanel](errorPanel.md): Componente para exibição de mensagens de erro.
+- [hero](hero.md): Componente de banner configurável com título, slogan e mídia.
+- [heroDetails](heroDetails.md): Componente para exibir detalhes dinâmicos de produtos.
+- [ldsUtils](ldsUtils.md): Utilitário para lidar com erros do LDS.
+- [orderBuilder](orderBuilder.md): Componente para construção de pedidos.
+- [orderItemTile](orderItemTile.md): Componente para exibir itens de pedidos.
+- [orderStatusPath](orderStatusPath.md): Componente para exibir o status de pedidos em um caminho visual.
+- [paginator](paginator.md): Componente para paginação de listas de itens.
+- [placeholder](placeholder.md): Componente para exibir mensagens de espera ou informações temporárias.
+- [productCard](productCard.md): Componente para exibir informações detalhadas de produtos.
+- [productFilter](productFilter.md): Componente para filtrar produtos.
+- [productTile](productTile.md): Componente para exibir produtos em formato de tile.
+- [productTileList](productTileList.md): Componente para exibir uma lista de produtos em formato de tile.
+- [similarProducts](similarProducts.md): Componente para exibir produtos similares.
 
-### Dados de Exemplo
-- [Accounts](./data/Accounts.md)
-- [Product__cs](./data/Product__cs.md)
-
-### Scripts
-- [Generate Login URL](./scripts/generate-login-url.md)
-- [Install Scratch (Windows)](./scripts/install-scratch.md)
-- [Install Scratch (Unix)](./scripts/install-scratch-sh.md)
-
-### Classes Apex
-- [CommunitiesLandingController](./force-app/main/default/classes/CommunitiesLandingController.md)
-- [OrderController](./force-app/main/default/classes/OrderController.md)
-- [ProductController](./force-app/main/default/classes/ProductController.md)
-- [PagedResult](./force-app/main/default/classes/PagedResult.md)
-- [HeroDetailsPositionCustomPicklist](./force-app/main/default/classes/HeroDetailsPositionCustomPicklist.md)
-
-### Classes de Teste
-- [CommunitiesLandingControllerTest](./force-app/main/default/classes/CommunitiesLandingControllerTest.md)
-- [TestOrderController](./force-app/main/default/classes/TestOrderController.md)
-- [TestProductController](./force-app/main/default/classes/TestProductController.md)
-
-### Componentes LWC
-- [Account Map](./force-app/main/default/lwc/accountMap.md)
-- [Create Case](./force-app/main/default/lwc/createCase.md)
-- [Error Panel](./force-app/main/default/lwc/errorPanel.md)
-- [Hero](./force-app/main/default/lwc/hero.md)
-- [Hero Details](./force-app/main/default/lwc/heroDetails.md)
-- [LDS Utils](./force-app/main/default/lwc/ldsUtils.md)
-
-### Outros Componentes
-- (Adicione links para outros componentes conforme forem documentados)
+[← Voltar ao início](index.md)
