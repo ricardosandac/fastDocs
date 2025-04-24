@@ -1,0 +1,53 @@
+Você irá criar uma documentação técnica automatizada para um projeto Salesforce com estrutura padrão (force-app/main/default). A documentação será gerada em formato compatível com GitHub Pages, usando Markdown.
+
+⚙️ Regras de execução:
+
+Varredura completa
+
+Percorra recursivamente todas as pastas e arquivos a partir da raiz do projeto (./).
+Não filtre por extensão: analise qualquer arquivo que faça parte da lógica ou estrutura Salesforce (ex: .cls, .trigger, .apex, .page, .cmp, .lwc, .xml, .html, .json, etc).
+Inclua pastas como classes, triggers, lwc, aura, objects, layouts, flows, permissionsets.
+Análise por arquivo
+
+Analise cada arquivo individualmente, em sequência, sem pular nenhum.
+Extraia:
+Nome, caminho e tipo do arquivo.
+Descrição geral baseada no conteúdo e comentários.
+Classes, métodos, atributos, eventos e metadados relevantes.
+Chaves de configuração, rotas, referências externas (Apex, Lightning, etc).
+Relacionamentos com outros arquivos (importações, herança, chamadas de método).
+Exemplos contextualizados
+
+Para cada função, método ou componente, gere exemplos em bloco de código Markdown. (Utilize quantos exemplos forem necessarios para passar o contexto total da classe)
+O exemplo deve:
+Estar dentro de uma seção ### Exemplo de Uso.
+Ter contexto explícito do cenário em que seria aplicado (ex: “Este método é usado no componente X para validar o input do formulário de contato”).
+Mostrar entrada e saída (se aplicável).
+Ser um trecho funcional, não pseudocódigo.
+Relacionamentos e linkagem
+
+Ao detectar relação entre componentes, como:
+Um LWC chamando outro.
+Um trigger usando uma classe utilitária.
+Um método Apex sendo usado em outro arquivo.
+Permission sets, profiles, objetos e etc
+Crie um link na documentação do tipo:
+Veja também: NomeDoOutroComponente
+Adicione essa referência ao final da seção correspondente, sob um título ### Relacionamentos.
+O objetivo é navegabilidade entre arquivos documentados.
+Geração dos arquivos Markdown
+
+Para cada arquivo, crie um .md correspondente dentro da pasta /docs, espelhando a estrutura de pastas original.
+
+Use estrutura padrão de Markdown com seções:
+
+Utilize o cabeçalho Jekyll se necessário:
+
+Página índice
+
+Crie um index.md com um índice completo dos arquivos documentados.
+Separe por tipo: Classes Apex, Triggers, Componentes Lightning, Configurações XML, etc.
+Todos os títulos devem ser links para seus respectivos arquivos .md.
+🎯 Objetivo final:
+Documentar todo o projeto Salesforce, com exemplos práticos, contexto de uso e relações entre os elementos, gerando uma referência navegável e profissional via GitHub Pages. Nenhum arquivo deve ser ignorado. Toda a documentação deve ser feita em portugues brasileiro.
+Todos os documentos .md devem ser armazenados na pasta docs
